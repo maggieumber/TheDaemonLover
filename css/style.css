@@ -1,0 +1,48 @@
+/* regular font */
+@font-face {
+  font-family: 'Blackout';
+  src: url('/css/fonts/blackout-master/webfonts/blackout_midnight-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: 300;
+}
+
+/* italic font */
+@font-face {
+  font-family: 'Blackout';
+  src: url('/css/fonts/blackout-master/webfonts/blackout_sunrise-webfont.woff') format('woff');
+  font-style: italic;
+  font-weight: 300;
+}
+
+/* headline & bold font */
+@font-face {
+  font-family: 'Blackout';
+  src: url('/css/fonts/blackout-master/webfonts/blackout_two_am-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+}
+
+body {
+  margin: 2.5% auto;
+  max-width: 1500px;
+  background-color: #f66dd5;
+  background-image: linear-gradient(to bottom right, black, gray);
+  font-family: 'Blackout', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.8em;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+  width: 100%;
+}
