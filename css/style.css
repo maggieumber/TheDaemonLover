@@ -34,10 +34,37 @@ body {
   color: white;
 }
 
+nav {
+  position: fixed;
+  top: 20px;
+  left: 0px;
+  z-index: 1;
+  /* background-color: #a1f1d6; */
+  text-align: center;
+  width: 100%;
+}
+
+ul,
+li {
+  display: inline;
+}
+
 h1 {
   font-size: 3em;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
+}
+
+#subtitle {
+  text-align: center;
+  padding: 20px 20px;
+}
+
+section {
+  padding: 30px 15px;
+  margin: 10px;
+  border: 2px solid #151814;
+  border-radius: 20px 20px 5px 5px;
 }
 
 footer {
@@ -46,6 +73,19 @@ footer {
   left: 0px;
   text-align: center;
   width: 100%;
+}
+
+a {
+  /* font-family: 'Blackout', sans-serif; */
+  text-decoration: none;
+  font-style: italic;
+  color: gray;
+}
+
+a:hover {
+  color: white;
+  background-color: black;
+  font-weight: normal;
 }
 
 /* Video */
