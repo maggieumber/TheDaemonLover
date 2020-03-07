@@ -11,11 +11,125 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- CSS Style Sheets and Favicon -->
-  <link rel="stylesheet" type="text/css" href="/css/stylesheet.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/stylesheet.css"> -->
   <!-- <link href="/css/style.css" rel="stylesheet" type="text/css"> -->
   <link href="/myicon.png" rel="icon" type="image/png">
   <!-- Links to JavaScript files -->
   <script src="/scripts/sketch.js"></script>
+  <style>
+    /* regular font */
+    @font-face {
+      font-family: 'Blackout';
+      src: url('/fonts/blackout-master/webfonts/blackout_midnight-webfont.woff') format('woff');
+      font-style: normal;
+      font-weight: 300;
+    }
+
+    /* italic font */
+    @font-face {
+      font-family: 'Blackout';
+      src: url('/fonts/blackout-master/webfonts/blackout_sunrise-webfont.woff') format('woff');
+      font-style: italic;
+      font-weight: 300;
+    }
+
+    /* headline & bold font */
+    @font-face {
+      font-family: 'Blackout';
+      src: url('/fonts/blackout-master/webfonts/blackout_two_am-webfont.woff') format('woff');
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    body {
+      margin: 2.5% auto;
+      max-width: 1500px;
+      background-color: #f66dd5;
+      background-image: linear-gradient(to bottom right, black, gray);
+      font-family: 'Blackout', sans-serif;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 1.8em;
+      color: white;
+    }
+
+    nav {
+      position: fixed;
+      top: 20px;
+      left: 0px;
+      z-index: 1;
+      /* background-color: #a1f1d6; */
+      text-align: center;
+      width: 100%;
+    }
+
+    ul,
+    li {
+      display: inline;
+    }
+
+    h1 {
+      font-size: 3em;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    #subtitle {
+      text-align: center;
+      padding: 20px 20px;
+    }
+
+    p {
+      letter-spacing: 0.08em;
+    }
+
+    section {
+      padding: 30px 15px;
+      margin: 10px;
+      border: 3px dotted black;
+      /* border-radius: 20px 20px 5px 5px; */
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0px;
+      left: 0px;
+      text-align: center;
+      width: 100%;
+    }
+
+    a {
+      /* font-family: 'Blackout', sans-serif; */
+      text-decoration: none;
+      font-style: italic;
+      color: gray;
+    }
+
+    a:hover {
+      color: white;
+      background-color: black;
+      font-weight: normal;
+    }
+
+    /* Video */
+    .responsive-vid {
+      position: relative;
+      padding-bottom: 56.25%;
+      /* 16:9 */
+      padding-top: 25px;
+      height: 0;
+    }
+
+    .responsive-vid iframe,
+    .responsive-vid video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 
 <body>
@@ -33,21 +147,20 @@
   <p id="subtitle">The Man in the Blue Suit is a semi-autobiographical collection of horror comics created by Maggie
     Umber.</p>
 
-  <figure><img src="img/1.jpg"> </figure>
-
   <!-- The Intoxicated section -->
   <section id="the-intoxicated">
     <h2>The Intoxicated</h2>
+    <h3>Publication History</h3>
+    <ul>
+      <li><a href="http://www.fantagraphics.com/now8/" target="_blank">Now: The New Comics Anthology #8</a>Fantagraphics
+      </li>
+    </ul>
+
     <!-- video -->
     <div class="responsive-vid">
       <iframe src="https://player.vimeo.com/video/389624961" width="640" height="308" frameborder="0"
         allow="autoplay; fullscreen" allowfullscreen></iframe>
     </div>
-
-    <h3>Visual Credit</h3>
-    <p>Short horror comic programmed in WEBGL and P5.js by Maggie Umber. Published in <a
-        href="http://www.fantagraphics.com/now8/" target="_blank">Now: The New Comics Anthology #8</a>
-      by Fantagraphics. </p>
 
     <h3>Sound Credit Creative Commons 3.0 License</h3>
     <ul>
@@ -72,17 +185,22 @@
   <!-- The Daemon Lover section -->
   <section id="the-daemon-lover">
     <h2>The Daemon Lover</h2>
+    <h3>Publication History</h3>
+    <ul>
+      <li><a href="http://www.fantagraphics.com/now5/" target="_blank">Now: The New Comics Anthology #5</a>Fantagraphics
+      </li>
+    </ul>
+    <br><br>
     <!-- video -->
     <div class="responsive-vid">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/UqUX451wHCk" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <br><br>
-    <!-- video -->
-    <div class="responsive-vid">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/J_ntMwHhfaM" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    <h3>Sound Credit Creative Commons 3.0 License</h3>
+    <ul>
+      <li><a href="https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400041" target="_blank">The
+          Escalation</a>by Kevin MacLeod</li>
+    </ul>
   </section>
 
   <!-- The Witch section -->
