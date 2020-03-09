@@ -33,6 +33,16 @@ body {
   color: white;
 }
 
+header {
+  color: #5c5c5c;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 50px;
+}
+
 nav {
   position: fixed;
   top: 20px;
@@ -48,15 +58,13 @@ li {
   display: inline;
 }
 
-h1 {
-  font-size: 3em;
-  text-align: center;
-  margin-top: 50px;
-}
-
 #subtitle {
   text-align: center;
   padding: 20px 20px;
+}
+
+.darkText {
+  color: #5c5c5c;
 }
 
 p {
