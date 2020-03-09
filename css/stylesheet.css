@@ -122,15 +122,14 @@ a:hover {
 img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
 }
 
-.frends img {
+.subtitleImg {
+  border-radius: 50%;
   display: block;
-}
-
-.photo {
-  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
 }
 
 .shopCover {
