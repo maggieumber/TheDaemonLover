@@ -99,7 +99,7 @@ a:hover {
   font-weight: normal;
 }
 
-/* Video */
+/* Videos */
 .responsive-vid {
   position: relative;
   padding-bottom: 56.25%;
@@ -116,4 +116,42 @@ a:hover {
   width: 100%;
   height: 100%;
   border-radius: 8px;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.frends img {
+  display: block;
+}
+
+.photo {
+  width: 600px;
+}
+
+.shopCover {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+}
+
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin: 20px;
+}
+
+.gallery-item .thumbnail {
+  border: 2px solid #151814;
+  border-radius: 8px;
+  width: 600px;
 }
