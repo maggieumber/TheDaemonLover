@@ -86,6 +86,13 @@ section {
   border-radius: 0px 100px 0px 25px;
 }
 
+.dottedBox {
+  padding: 40px 25px;
+  margin: 10px;
+  border: 3px dotted black;
+  border-radius: 0px 100px 0px 25px;
+}
+
 footer {
   position: fixed;
   bottom: 0px;
