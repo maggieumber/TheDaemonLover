@@ -20,7 +20,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth / 2, windowWidth * .25);
+  createCanvas(1500, 561);
   sketchbook = [img0, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13];
 }
 
@@ -35,5 +35,3 @@ function mousePressed() {
     index = 0;
   }
 }
-
-// sketchbook.resize(windowWidth / 2, 0);
