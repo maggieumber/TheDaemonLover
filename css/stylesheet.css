@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* regular font */
 @font-face {
   font-family: 'Blackout';
@@ -28,9 +34,19 @@ body {
   background-image: linear-gradient(to bottom right, black, #5c5c5c);
   font-family: 'Blackout', sans-serif;
   font-weight: 300;
+  letter-spacing: 0.08em;
   font-size: 18px;
   line-height: 1.8em;
   color: white;
+}
+
+nav {
+  position: fixed;
+  top: 20px;
+  left: 0px;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
 }
 
 header {
@@ -45,19 +61,25 @@ h1 {
   line-height: 1.8em;
 }
 
-nav {
-  position: fixed;
-  top: 20px;
-  left: 0px;
-  z-index: 1;
-  /* background-color: #a1f1d6; */
-  text-align: center;
-  width: 100%;
+h2 {
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 75px;
 }
 
-ul,
+h3,
+.darkText {
+  color: #5c5c5c;
+}
+
+ul {
+  /* list-style-type: none; */
+  text-align: center;
+}
+
 li {
-  display: inline;
+  list-style-type: none;
+  /* text-align: center; */
 }
 
 .blurbs {
@@ -70,13 +92,9 @@ li {
   padding: 20px 20px;
 }
 
-h2,
-.darkText {
-  color: #5c5c5c;
-}
-
-p {
-  letter-spacing: 0.08em;
+.subtitle {
+  text-align: center;
+  padding: 20px 20px;
 }
 
 section {
@@ -101,8 +119,11 @@ footer {
   width: 100%;
 }
 
+.contents {
+  margin: 25px;
+}
+
 a {
-  /* font-family: 'Blackout', sans-serif; */
   text-decoration: none;
   font-style: italic;
   color: gray;
@@ -110,7 +131,6 @@ a {
 
 a:hover {
   color: white;
-  background-color: black;
   font-weight: normal;
 }
 
