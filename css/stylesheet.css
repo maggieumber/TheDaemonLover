@@ -29,7 +29,7 @@
 }
 
 body {
-  margin: 200px auto;
+  margin: 200px auto 75px auto;
   max-width: 1500px;
   background-image: linear-gradient(to bottom right, black, #5c5c5c);
   font-family: 'Blackout', sans-serif;
@@ -63,11 +63,16 @@ h1 {
 
 h2 {
   color: white;
-  margin-top: 50px;
-  margin-bottom: 75px;
+  margin: 50px 0px 75px 0px;
+}
+
+h3 {
+  /* border: firebrick dotted; */
+  margin: 40px 0px 20px 0px;
 }
 
 h3,
+time,
 .darkText {
   color: #5c5c5c;
 }
@@ -85,11 +90,6 @@ li {
 .blurbs {
   display: block;
   margin: 20px;
-}
-
-#subtitle {
-  text-align: center;
-  padding: 20px 20px;
 }
 
 .subtitle {
