@@ -78,6 +78,10 @@ time,
   color: #5c5c5c;
 }
 
+p {
+  padding-bottom: 15px;
+}
+
 ul {
   /* list-style-type: none; */
   text-align: center;
