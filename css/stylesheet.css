@@ -6,8 +6,10 @@
 
 /* regular font */
 @font-face {
-  font-family: 'Blackout';
-  src: url('/fonts/blackout-master/webfonts/blackout_midnight-webfont.woff') format('woff');
+  font-family: 'Fanwood';
+  /* font-family: 'Blackout'; */
+  src: url('/fonts/fanwood-master/webfonts/fanwood_text-webfont.woff') format('woff');
+  /* src: url('/fonts/blackout-master/webfonts/blackout_midnight-webfont.woff') format('woff'); */
   font-style: normal;
   font-weight: 300;
 }
@@ -32,7 +34,8 @@ body {
   margin: 100px auto 75px auto;
   max-width: 1500px;
   background-image: linear-gradient(to bottom right, black, #5c5c5c);
-  font-family: 'Blackout', sans-serif;
+  /* font-family: 'Blackout', sans-serif; */
+  font-family: 'Fanwood', 'Times New Roman', Times, serif;
   font-weight: 300;
   letter-spacing: 0.08em;
   font-size: 18px;
